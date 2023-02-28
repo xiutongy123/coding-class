@@ -1,6 +1,149 @@
-head {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+  
+  html,body{
+    height:100%;
+  }
+
+  html {
+    display: block;
+  }
+  
+  h1,h3,p{
+    display: flex;
+    justify-content:center;
+  }
+  
+  
+  header {
+    flex: 1;
+    overflow: auto;
     position:absolute;
-    top:0px;
-    height:200px;
+    height:40px;
+    width:100%;
     background-color:black;
-}
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+  }
+  
+  nav{
+    background:red;
+    width:72%;
+    height:100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  ul {
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  a {
+    color:white;
+    text-decoration: none;
+  }
+  
+  
+  .leftn {
+    width:10%;
+    line-height:100%;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  .rightn {
+    width:18%;
+    line-height:100%;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+  }
+  
+  
+  
+  
+  
+  main {
+    flex: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .title{
+    height:250px;
+    background:blue;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sort{
+    height:20px;
+    background:orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  
+  .gallery{
+      width:100%;
+      background:yellow;
+      display: flex;
+      flex-direction:column;
+  }
+
+  .row {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+  }
+    
+  .img{
+      background: red;
+      width: 20%;
+      padding-top: 50px;
+      padding-right: 50px;
+      padding-left: 50px;
+  }
