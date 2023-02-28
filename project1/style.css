@@ -7,37 +7,37 @@
 
 header{
   position:fixed;
+  background-color: black;
   top:0px;
   width:100%;
 }
 
 nav {
     display: flex;
-    background-color: black;
     justify-content: space-between;
     align-items: center;
     line-height: 20px;
     font-size: 14px;
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
   
 .center {
     display: flex;
     align-items: center;
-    width:72%;
+    width:60%;
     list-style: none;
     margin: 0;
   }
 
 .leftn {
-    width:10%;
+    width:15%;
     display:flex;
     justify-content:space-around;
+    padding-left: 80px;
+    padding-right: 40px;
   }
   
 .rightn {
-    width:18%;
+    width:25%;
     display:flex;
     justify-content:space-around;
   }
@@ -47,11 +47,15 @@ ul {
     display:flex;
     justify-content:space-around;
   }
+
+li{
+  list-style: none;
+}
   
 a {
     color:white;
-    text-decoration: none;
     text-transform: uppercase;
+    text-decoration: none;
   }
 
 
@@ -68,6 +72,21 @@ a {
     padding-top: 60px;
     padding-bottom: 20px;
     text-align: center;
+}
+
+
+.sort{
+  margin:10px 70px;
+  border:1px solid rgb(125, 125, 125);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.black{
+  color:rgb(125, 125, 125);
 }
 
 .gallery{
@@ -141,8 +160,8 @@ a {
 
 .social{
   width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   object-fit: cover;
 }
 
